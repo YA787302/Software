@@ -1,0 +1,283 @@
+UML stands for Unified Modeling Language.
+
+It’s a rich language to model software solutions, application structures, system behavior and busines.s processes.
+
+There are 14 UML diagram types to help you model these behaviors.
+
+There are two main categories in UML Diagram
+
+1) structure diagrams.
+   
+    show the things in the modeled system. In a more technical term, they show different objects in a system. 
+
+
+2) behavioral diagrams.
+   show what should happen in a system. They describe how the objects interact with each other to create a functioning system.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+1) structure diagrams 
+   1) Class Diagram
+       Class diagrams are the main building block of any object-oriented solution. 
+       It shows the classes in a system, attributes, and operations of each class and the relationship between each class.
+       
+       a class has three parts. Name at the top, attributes in the middle and operations or methods at the bottom.
+
+
+   2) Component Diagram
+
+        A component diagram displays the structural relationship of components of a software system. These are mostly used when working with complex systems with many components. 
+        Components communicate with each other using interfaces.
+       
+   3) Deployment Diagram
+
+        A deployment diagram shows the hardware of your system and the software in that hardware.
+        Deployment diagrams are useful when your software solution is deployed across multiple machines with each having a unique configuration.
+
+   4) Object Diagram 
+
+      Object Diagrams, sometimes referred to as Instance diagrams are very similar to class diagrams. Like class diagrams, they also show the relationship between objects but they use real-world examples.
+
+   5) Package Diagram 
+
+        As the name suggests, a package diagram shows the dependencies between different packages in a system.
+
+   6) Profile Diagram 
+
+        Profile diagram is a new diagram type introduced in UML 2. This is a diagram type that is very rarely used in any specification.
+
+   7) Composite Structure Diagram
+
+       Composite structure diagrams are used to show the internal structure of a class.
+
+
+
+2) Behavioral Diagrams
+
+  1) Use Case Diagram
+    
+      As the most known diagram type of the behavioral UML types,
+      Use case diagrams give a graphic overview of the actors involved in a system,
+      different functions needed by those actors and how these different functions interact.
+
+  2) Activity Diagram
+   
+      Activity diagrams represent workflows in a graphical way. 
+      They can be used to describe the business workflow or the operational workflow of any component in a system. Sometimes activity diagrams are used as an alternative to State machine diagrams. Check out this wiki article to learn about symbols and usage of activity diagrams. 
+      You can also refer this easy guide to activity diagrams.
+
+  3) State Machine Diagram
+
+      State machine diagrams are similar to activity diagrams, although notations and usage change a bit. They are sometimes known as state diagrams or state chart diagrams as well. These are very useful to describe the behavior of objects that act differently according to the state they are in at the moment.
+      The State machine diagram below shows the basic states and actions.
+  4) Sequence Diagram
+  
+       Sequence diagrams in UML show how objects interact with each other and the order those interactions occur. It’s important to note that they show the interactions for a particular scenario.
+       The processes are represented vertically and interactions are shown as arrows. This article explains the purpose and the basics of Sequence diagrams. Also, 
+       check out this complete Sequence Diagram Tutorial to learn more about sequence diagrams.
+ 
+  5) Communication Diagram
+
+      In UML 1 they were called collaboration diagrams. Communication diagrams are similar to sequence diagrams, but the focus is on messages passed between objects. The same information can be represented using a sequence diagram and different objects.
+  
+  6) Interaction Overview Diagram
+
+     Interaction overview diagrams are very similar to activity diagrams. While activity diagrams show a sequence of processes, Interaction overview diagrams show a sequence of interaction diagrams.
+
+  7) Timing Diagram
+
+     Timing diagrams are very similar to sequence diagrams. They represent the behavior of objects in a given time frame. If it’s only one object, the diagram is straightforward. But, if there is more than one object is involved, a Timing diagram is used to show interactions between objects during that time frame.
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_1 ) UML Diagram Who Is Emplemet It ?
+
+ software developers, software engineers, and data scientists.
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_2) Design Pattern Example ?
+
+There are about 26 Patterns currently discovered
+1) Creational: These patterns are designed for class instantiation. They can be either class-creation patterns or object-creational patterns.
+2) Structural: These patterns are designed with regard to a class's structure and composition. The main goal of most of these patterns is to increase the functionality of the class(es) involved, without changing much of its composition.
+3) Behavioral: These patterns are designed depending on how one class communicates with others.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_3) Architecture Pattern Example ?
+
+is a concept that solves and delineates some essential cohesive elements of a software architecture.
+
+Examples ==>
+
+ 1) microservices
+ 2) message bus
+ 3) service requester/ consumer
+ 4) MVC pattern
+ 5) MVVM
+ 6) microkernel
+ 7) n-tier
+ 8) domain-driven design components
+ 9) presentation-abstraction-control
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_4) Monitoring Tool In SoftWare ?
+
+What Is a Server Monitoring Software => s the process of tracking the performance of how your server resources are being utilized by collecting and analyzing metrics. This is where monitoring software comes into play—it makes sure your applications run smoothly and that your servers have enough resources available to run their processes. This means it monitors certain key server components:
+
+CPU: The percentage of CPU utilization should ideally be peaking to its maximum only rarely, and the peaks should be short. If the CPU is maxed out frequently or very close to the max even during non-peak periods, it’s a sign the system doesn’t have much headroom.
+
+Used memory: If this indicator is reaching your memory limit, you might want to think about horizontally scaling your servers or adding more RAM.
+
+Storage: Being aware of disk storage utilization is crucial in production systems—if the disks run out of space, system crashes will ensue.
+
+Network: By monitoring network bandwidth and throughput, you can see how traffic is being delivered to your server.
+
+
+Best Monitoring Tools for Servers => 
+
+1) Sematext Monitoring
+2)  Prometheus and Grafana
+3) SolarWinds Server & Application Manager
+4) Dynatrace
+5) Datadog
+6) New Relic
+7) ManageEngine OpManager
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_5) Software Engineering ?
+
+is the branch of computer science that deals with the design, development, testing, and maintenance of software applications. Software engineers apply engineering principles and knowledge of programming languages to build software solutions for end users
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_6) Kind Of Testing ?
+ software testing is the process of finding errors in a product, whether it be a mobile or web application. Errors include bugs in the code, missing requirements, glitches, and more. Software testing can also determine whether the outcome when engaging with the application differs from the expectation.
+Examples => 
+ 
+1) Accessibility testing
+2) Acceptance testing
+3) Black box testing
+
+    Black box testing involves testing against a system where the code and paths are invisible. 
+
+4) White-box testing
+
+     White box testing involves testing the product's underlying structure, architecture, and code to validate input-output flow and enhance design, usability, and security. 
+
+5) Unit testing
+
+   Unit testing is the process of checking small pieces of code to ensure that the individual parts of a program work properly on their own, speeding up testing strategies and reducing wasted tests.
+
+6) System Testing , also referred to as system-level testing or system integration testing
+
+     is the process in which a quality assurance (QA) team evaluates how the various components of an application interact together in the full, integrated system or application
+
+7) Functional testing
+8) Non Functional Testing
+9) Security testing
+10) Interactive testing
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_7) V Model ?
+
+   The V-model of SDLC carries out its execution in a sequential manner. The structure it follows takes the shape of the letter V. This model is also popularly termed as a Verification and Validation model
+ 
+1) Verification: In the concept of verification in the V-Model, static analysis technique is carried out without executing the code. This evaluation procedure is carried out at the time of development to check whether specific requirements will meet or not.
+
+2) Validation: This concept of V-Model comprises of dynamic analysis practice (both functional as well as non-functional), and testing is done by code execution. The validation of a product is done once the development is complete for determining if the software meets up the customer hope needs.
+
+1) => Advantages of V-model:
+
+Simple and easy to use.
+Testing activities like planning, test designing happens well before coding. This saves a lot of time. Hence higher chance of success over the waterfall model.
+Proactive defect tracking – that is defects are found at early stage.
+Avoids the downward flow of the defects.
+Works well for small projects where requirements are easily understood.
+
+2) => Disadvantages of V-model:
+
+Very rigid and least flexible.
+Software is developed during the implementation phase, so no early prototypes of the software are produced.
+If any changes happen in midway, then the test documents along with requirement documents has to be updated.
+
+
+What Is SDLC ?
+   SDLC is Software Development Life Cycle. It is the sequence of activities carried out by Developers to design and develop high-quality software.
+
+
+What Is STLC ?
+   STLC is Software Testing Life Cycle. It consists of a series of activities carried out by Testers methodologically to test your software product.
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_8) What Is ?
+
+1) MVC => The model-view-controller  specifies that an application consist of a data model, presentation information, and control information. The pattern requires that each of these be separated into different objects
+
+2) MVVM => Model-View-ViewModel is a software design pattern that is structured to separate program logic and user interface controls
+
+3) MVP =>  is a user interface architectural pattern engineered to facilitate automated unit testing and improve the separation of concerns in presentation logic:
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_9) Example Design Pattern In AI ?
+
+Strategy Pattern: In this pattern, algorithms are encapsulated in separate classes, which can be used interchangeably. This pattern is useful in machine learning where multiple algorithms can be used to solve the same problem. The Strategy Pattern allows the user to switch between different algorithms without having to change the code.
+
+Singleton Pattern: This pattern ensures that only one instance of a class is created and provides a global point of access to it. This pattern can be useful in deep learning when there is a need for a shared resource or when there are multiple processes running in parallel. The Singleton Pattern ensures that only one instance of the shared resource is created.
+
+Observer Pattern: In this pattern, a subject maintains a list of its observers and notifies them automatically of any state changes. This pattern is useful in natural language processing when there is a need to track changes in data over time. The Observer Pattern can be used to monitor data changes and notify the appropriate components automatically.
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_10) What Is ?
+
+The chief executive officer (CEO) is the highest-ranking person in a company. While every company differs, CEOs are often responsible for expanding the company, driving profitability, and in the case of public companies, improving share prices. CEOs manage the overall operations of a company
+
+
+A Chief Operating Officer (COO) is a dual role that combines the functions of chief executive and manager. They design, implement policies to promote company culture and vision and oversee operations to keep businesses on track
+
+Chief Technology Officer (CTO) A chief technology officer (CTO) is the executive in charge of an organization's technological needs as well as its research and development (R&D). Also known as a chief technical officer, this individual examines the short- and long-term needs of an organization and utilizes capital to make investments designed to help the organization reach its objectives. The CTO usually reports directly to a company's chief information officer (CIO), but may also report to the chief executive officer (CEO) of the firm.
+
+The term chief financial officer (CFO) refers to a senior executive responsible for managing the financial actions of a company. The CFO's duties include tracking cash flow and financial planning as well as analyzing the company's financial strengths and weaknesses and proposing corrective actions. The role of a CFO is similar to a treasurer or controller because they are responsible for managing the finance and accounting divisions and for ensuring that the company’s financial reports are accurate and completed in a timely manner.
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_11) What Is Tools Of Devops ?
+
+DevOps automation tools include Puppet, Chef, Ansible, SaltStack , Docker
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_12) What Is DataOps?
+
+DataOps is a collection of technical practices, workflows, cultural norms, and architectural patterns that enable:
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Task_13) What Is MlOps?
+
+MLOps stands for Machine Learning Operations.  MLOps is a core function of Machine Learning engineering, focused on streamlining the process of taking machine learning models to production, and then maintaining and monitoring them
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
